@@ -6,9 +6,15 @@
 
 header, 
 .first,
-footer {
+footer,
+button {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.secondaryText {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .information,
@@ -22,7 +28,15 @@ footer {
 
 button {
     background-color: #3882F6;
+    border: none;
+    padding: 8px 36px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 800;
 }
+
+/* HEADER SECTION  */
 
 header {
     font-size: 24px;
@@ -40,18 +54,41 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .headerLogo {
     margin-right: auto;
 }
+
+/* MAIN SECTION */
 
 h1 { 
     font-size: 48px;
 }
 
-.secondaryText {
-    color: #E5E7EB;
-    font-size: 18px;
+.first {
+    display: flex;
+    align-items: center;
+    height: 500px;
 }
+
+.first div {
+    flex: 1;
+    height: 250px;
+}
+
+.headliner>.secondaryText {
+ margin-bottom: 12px;
+}
+
+.first>.placeholder {
+    background-color: #6e7074;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 h2 {
     font-size: 36px;
