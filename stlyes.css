@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
 header, 
-.first,
+.headline,
 footer,
 button {
-    background-color: #1F2937;
+    background: #1F2937;
     color: #F9FAF8;
 }
 
@@ -65,22 +70,27 @@ h1 {
     font-size: 48px;
 }
 
-.first {
+.headline {
+    height: 500px;
     display: flex;
     align-items: center;
-    height: 500px;
 }
 
-.first div {
+.test {
+    display: flex;
+    align-items: stretch;
+    gap: 64px;
+}
+
+.test div {
     flex: 1;
-    height: 250px;
 }
 
-.headliner>.secondaryText {
+.leftSide>.secondaryText {
  margin-bottom: 12px;
 }
 
-.first>.placeholder {
+.test>.placeholder {
     background-color: #6e7074;
     display: flex;
     justify-content: center;
