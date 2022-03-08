@@ -9,15 +9,13 @@
     width: 960px;
 }
 
+/* FONT COLORS */
+
 section {
     padding: 100px 0;
 }
 
-header, 
-.headline,
-footer,
-button {
-    background: #1F2937;
+.whiterFont {
     color: #F9FAF8;
 }
 
@@ -30,8 +28,24 @@ button {
     color: #1F2937;
 }
 
+/* BG COLORS */
+
+header, 
+.headline,
+footer {
+    background: #1F2937;
+}
+
+.placeholder {
+    background-color: #6e7074;
+}
+
 .third {
     background-color: #E5E7EB;
+}
+
+.content {
+    background-color: #3882F6;
 }
 
 button {
@@ -99,7 +113,6 @@ h1 {
 }
 
 .container>.placeholder {
-    background-color: #6e7074;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,14 +178,12 @@ h2 {
 /* SIGNUP SECTION */
 
 h3 {
-    color: #F9FAF8;
     font-weight: 800;
     font-size: 24px;
 }
 
 .content {
     padding: 36px 0;
-    background-color: #3882F6;
     border-radius: 8px;
     display: flex;
     align-items: center;
