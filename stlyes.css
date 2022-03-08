@@ -184,3 +184,8 @@ h3 {
 }
 
 /* FOOTER */
+
+footer {
+    padding: 36px 0;
+    text-align: center;
+}
