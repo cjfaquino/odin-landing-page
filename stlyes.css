@@ -62,7 +62,7 @@ button {
 /* HEADER SECTION  */
 
 header {
-    font-size: 24px;
+    padding: 16px 0;
 }
 
 ul {
@@ -79,6 +79,8 @@ a {
 }
 
 .headerLogo {
+    font-size: 24px;
+    font-weight: 800;
     margin-right: auto;
 }
 
@@ -88,13 +90,12 @@ h1 {
     font-size: 48px;
 }
 
-.headline .secondaryText {
+.secondaryText {
     font-size: 18px;
 }
 
 
 .headline {
-
     display: flex;
     align-items: center;
 }
