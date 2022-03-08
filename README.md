@@ -5,3 +5,4 @@ The goal for me with this project was to recreate [this](https://cdn.statically.
 Things I focused on here:
 - Flexbox properties
 - Creating a easily readable css file
+- Practicing insightful git commits
